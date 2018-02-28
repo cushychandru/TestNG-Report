@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>test handle response</title>
+<script type="text/javascript" src="data/datafile.js"></script>
+<script src="data/Chart.min.js"></script>
+<script type="text/javascript" src="data/Chart.PieceLabel.js"></script>
+<script type="text/javascript" src="data/report.js"></script>
+<link rel="stylesheet" type="text/css" href="data/sortable.css">
+<link rel="stylesheet" type="text/css" href="data/report.css">
+</head>
+<body onload="StatusTable()">
+	<div class="rep_sho">
+		<table id='main_table'>
+			<tr>
+				<td colspan="3">
+					<div id="AplicationDetails"></div>
+				</td>
+				<td>Auto Refresh : <input type="checkbox" id="myCheck" checked
+					onclick="autoRefresh()">
+				</td>
+			</tr>
+			<tr>
+				<td width="24%">
+					<div
+						style="position: relative; top: 0; left: 30%; ,; font-weight: bold;">Total
+						Test Result</div>
+					<div id="canvas-holder" style="" onload="status()">
+						<canvas id="test-status" height="220"></canvas>
+					</div>
+				</td>
+				<td width="25%">
+					<div
+						style="position: relative; top: 0; left: 30%; ,; font-weight: bold;">Type
+						of Exceptions </div>
+					<div id="canvas-holder" style="" onload="status()">
+						<canvas id="fail-result" height="220" ></canvas>
+					</div>
+				</td>
+				<td>
+					<div id="canHolder" style="width: 100%">
+						<canvas id="myChart"> </canvas>
+					</div>
+					<div style="text-align: center">
+						<button id="back" type="button" onclick="pagintion('')" disabled>&laquo;</button>
+						<input type="button" id="size" disabled></input>
+						<button id="front" type="button" onclick="pagintion('next')">&raquo;</button>
+					</div>
+				</td>
+				<td width="250" style="font-weight: bolder;">
+					<div id="status" style="width: 200px; margin: auto;">
+						<table id="TimeTable" style="border: none; margin-bottom: 20px">
+							<tr>
+								<th colspan="2">Total Time Taken</th>
+							</tr>
+							<tr>
+								<td colspan="2"
+									style="text-align: center; background-color: #87cefa">hh:mm:ss<br>
+									<span id="time" style="font-size: 20px; font-weight: bold;"></span></td>
+							</tr>
+						</table>
+						<table id="statusTable" style="border: none;">
+							<tr>
+								<th colspan="2">Test Result</th>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div class="rep_sho" style="position: relative;">
+		<div class="search">
+			<input type="text" name="search" placeholder="Search.." id="myInput"
+				onkeyup="search()">
+		</div>
+		<table id="MainTable" class="sortable" width="1200">
+			<thead>
+				<tr>
+					<th width="40px">Sl No</th>
+					<th width="225px">Class</th>
+					<th width="225px">Method</th>
+					<th width="65px">Time (s)</th>
+					<th width="75px">Result</th>
+					<th id="exp">Exception</th>
+				</tr>
+			</thead>
+			<tfoot>
+				<tr>
+					<td colspan="6"><div id="footer"></div></td>
+				</tr>
+			</tfoot>
+			<tbody id="BodyRows"></tbody>
+		</table>
+		</div>
+		<script type="text/javascript" src="data/reportStyle.js"></script>
+		<script type="text/javascript" src="data/sortable.js"></script>
+</body>
+</html>

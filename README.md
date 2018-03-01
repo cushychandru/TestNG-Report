@@ -54,3 +54,4 @@ in this this part is must
    	<listener class-name="report_genarator.Listener"/>
  </listeners>
  ```
+- Change your default html preview browser ( don't select testing browser )

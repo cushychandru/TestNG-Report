@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+# Custom TestNG Report 
+![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
 
-You can use the [editor on GitHub](https://github.com/cushychandru/TestNG-Report/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+#[Demo](http://htmlpreview.github.io/?https://github.com/cushychandru/TestNG-Report/blob/master/Report%20Example/Report/Report.html "Demo")
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+[TOCM]
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+#Features
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cushychandru/TestNG-Report/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- User friendly result.
+- Show Passed, failed and skiped test cases % vise and shows count.
+- Time taken per test exicution.
+- Failed test cases analysation.
+- Responve grafical representation.
+- Sorting and searching test cases.
+- anable and desable auto refresh.
+- See test result while test Suite running.
+- Auto priew of result in your defalut browser.
+- Faild test Suite genateror.
+- Auto backup your old report.
+- Compatible with all major browsers (IE8+).

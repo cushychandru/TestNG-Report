@@ -1,5 +1,5 @@
 # Custom TestNG Report 
- 
+--- 
 ## [Demo](https://rawgit.com/cushychandru/TestNG-Report/master/Report%20Example/Report/Report.html)
 
 
@@ -29,3 +29,28 @@
 ```bash
 git clone https://github.com/cushychandru/TestNG-Report.git
 ```
+- Go to souce folder and get jar
+- Add Jar into TestNg project
+- take properties file from source folder and customize as per your need the put properties file into class path
+- Add Listener to testNG suit file ( Examole suite file available in source folder)
+ ```xml
+ <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+<suite name="selenium_suit" verbose="10">
+	<listeners>
+		<listener class-name="report_genarator.Listener"/>
+	</listeners>
+	<test name="selenium_test" preserve-order="true"> 
+		<classes>
+		<class name="TestReport.Test2"/>
+		<class name="TestReport.Test2"/>
+    </classes>
+	</test>
+</suite>
+```
+in this this part is must
+```xml 
+<listeners>
+   	<listener class-name="report_genarator.Listener"/>
+ </listeners>
+ ```

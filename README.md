@@ -1,5 +1,4 @@
 # Custom TestNG Report 
-![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
 
 #[Demo](http://htmlpreview.github.io/?https://github.com/cushychandru/TestNG-Report/blob/master/Report%20Example/Report/Report.html "Demo")
 

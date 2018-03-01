@@ -1,10 +1,10 @@
 # Custom TestNG Report 
-## 
+ 
 ## [Demo](https://rawgit.com/cushychandru/TestNG-Report/master/Report%20Example/Report/Report.html)
 
 
 
-## Features
+# Features
 
 - User friendly result.
 - Show Passed, failed and skiped test cases % vise and shows count.

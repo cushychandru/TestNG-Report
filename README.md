@@ -1,6 +1,6 @@
 # Custom TestNG Report 
 
-#[Demo](http://htmlpreview.github.io/?https://github.com/cushychandru/TestNG-Report/blob/master/Report%20Example/Report/Report.html "Demo")
+[Demo](https://rawgit.com/cushychandru/TestNG-Report/master/Report%20Example/Report/Report.html"Demo")
 
 
 [TOCM]

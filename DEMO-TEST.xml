@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<suite name="Suite1">
+
+	<listeners>
+		<listener class-name="report_genarator.Listener"></listener>
+	</listeners>
+
+	<test name="TEST-DEMO">
+		
+		<classes>
+
+			
+
+
+		</classes>
+	</test>
+
+
+</suite>

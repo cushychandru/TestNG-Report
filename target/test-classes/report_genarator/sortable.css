@@ -1,0 +1,2 @@
+.sortable th:hover{color:#000}.sortable th:hover::after{color:inherit;content:' \025B8'}.sortable th::after{color:transparent;content:' \025B8'}.sortable th.dir-down{color:#000}.sortable th.dir-down::after{color:inherit;content:' \025BE'}.sortable th.dir-up{color:#000}.sortable th.dir-up::after{color:inherit;content:' \025B4'}
+

@@ -4,7 +4,7 @@ import com.testng_reporter.demo.constant.Constant;
 import com.testng_reporter.demo.constant.TableName;
 import com.testng_reporter.demo.constant.Xpath;
 
-public class SMARM_Utility {
+public class AppUtility {
     
     static String[][] serverDEetails    = ExcelUtility.getTableArray(Constant.DATA_FILE, Constant.DATA_SHEET1, TableName.LogIn.URL);
     
